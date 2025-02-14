@@ -6,6 +6,8 @@ import { RouterProvider } from "react-router-dom";
 // Router
 import router from "@/router";
 
+// ZaUI stylesheet
+import "zmp-ui/zaui.css";
 // Tailwind stylesheet
 import "@/css/tailwind.scss";
 // Your stylesheet
