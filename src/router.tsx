@@ -1,82 +1,176 @@
-import Layout from "@/components/layout";
-import CartPage from "@/pages/cart";
-import ProductListPage from "@/pages/catalog/product-list";
-import CategoryListPage from "@/pages/catalog/category-list";
-import ProductDetailPage from "@/pages/catalog/product-detail";
-import HomePage from "@/pages/home";
-import ProfilePage from "@/pages/profile";
-import SearchPage from "@/pages/search";
-import { createBrowserRouter } from "react-router-dom";
-import { getBasePath } from "@/utils/zma";
+import Layout from '@/components/Layout';
+import CartPage from '@/pages/cart';
+import ProfilePage from '@/pages/profile';
+import { createBrowserRouter } from 'react-router-dom';
+import { getBasePath } from './utils/zma';
+import { SimpleErrorFallback } from 'miniapp-core/src';
+import { ROUTES } from 'miniapp-core/src';
+import HomePage from '@/pages/home';
+import ProductsPage from '@/pages/products';
+import CardPage from '@/pages/card';
+import VoucherPage from '@/pages/voucher';
+import WheelPage from '@/pages/wheel';
+import DepartmentsPage from '@/pages/departments';
+import { rootLoader } from 'miniapp-core/src';
+import ProductDetailPage from '@/pages/productDetail';
+import SearchPage from '@/pages/search';
+import NewsPage from '@/pages/news';
+import NewsDetailPage from '@/pages/newsDetail';
+import AddressPage from '@/pages/address/AddressListPage';
+import AddAddressPage from '@/pages/address/AddAddressPage';
+import EditAddressPage from '@/pages/address/EditAddressPage';
+import DeliveryPage from '@/pages/delivery';
 
 const router = createBrowserRouter(
   [
     {
-      path: "/",
+      path: '/',
       element: <Layout />,
+      errorElement: <SimpleErrorFallback />,
+      loader: rootLoader,
       children: [
         {
-          path: "/",
+          path: '/',
           element: <HomePage />,
           handle: {
             logo: true,
           },
         },
         {
-          path: "/categories",
-          element: <CategoryListPage />,
+          path: ROUTES.products,
+          element: <ProductsPage />,
           handle: {
-            title: "Danh mục sản phẩm",
-            back: false,
+            title: 'Sản phẩm',
+            noBack: true,
+            search: true,
           },
         },
         {
-          path: "/cart",
+          path: ROUTES.cart,
           element: <CartPage />,
           handle: {
-            title: "Giỏ hàng",
+            title: 'Giỏ hàng',
+            noFloatingCart: true,
+            noBack: true,
           },
         },
         {
-          path: "/profile",
+          path: ROUTES.profile,
           element: <ProfilePage />,
           handle: {
-            logo: true,
+            title: 'Cá nhân',
+            // logo: true,
+            noFloatingCart: true,
+            noBack: true,
           },
         },
         {
-          path: "/flash-sales",
-          element: <ProductListPage />,
+          path: ROUTES.card,
+          element: <CardPage />,
           handle: {
-            title: "Flash Sales",
+            title: 'Thẻ',
           },
         },
         {
-          path: "/category/:id",
-          element: <ProductListPage />,
+          path: ROUTES.voucher,
+          element: <VoucherPage />,
           handle: {
-            title: ({ categories, params }) =>
-              categories.find((c) => c.id === Number(params.id))?.name,
+            title: 'Ưu đãi',
+            noFooter: true,
+            noFloatingCart: true,
           },
         },
         {
-          path: "/product/:id",
+          path: ROUTES.wheel,
+          element: <WheelPage />,
+          handle: {
+            title: 'Vòng quay',
+            noFloatingCart: true,
+          },
+        },
+        {
+          path: ROUTES.departments,
+          element: <DepartmentsPage />,
+          handle: {
+            title: 'Chi nhánh',
+            noBack: false,
+            noFooter: true,
+            noFloatingCart: true,
+          },
+        },
+        {
+          path: ROUTES.productDetail,
           element: <ProductDetailPage />,
           handle: {
-            scrollRestoration: 0, // when user selects another product in related products, scroll to the top of the page
+            scrollRestoration: 0,
+            noFloatingCart: true,
           },
         },
         {
-          path: "/search",
+          path: ROUTES.search,
           element: <SearchPage />,
           handle: {
-            title: "Tìm kiếm",
+            search: true,
+            title: 'Tìm kiếm',
+            noFooter: true,
+          },
+        },
+        {
+          path: ROUTES.news,
+          element: <NewsPage />,
+          handle: {
+            title: 'Tin tức',
+          },
+        },
+        {
+          path: ROUTES.newsDetail,
+          element: <NewsDetailPage />,
+          handle: {
+            title: 'Chi tiết tin tức',
+            scrollRestoration: 0,
+            noFloatingCart: true,
+          },
+        },
+        {
+          path: ROUTES.address,
+          element: <AddressPage />,
+          handle: {
+            title: 'Địa chỉ',
+            noFooter: true,
+            noFloatingCart: true,
+          },
+        },
+        {
+          path: ROUTES.addAddress,
+          element: <AddAddressPage />,
+          handle: {
+            title: 'Thêm địa chỉ',
+            noFooter: true,
+            noFloatingCart: true,
+          },
+        },
+        {
+          path: ROUTES.editAddress,
+          element: <EditAddressPage />,
+          handle: {
+            title: 'Chỉnh sửa địa chỉ',
+            noFooter: true,
+            noFloatingCart: true,
+          },
+        },
+        {
+          path: ROUTES.delivery,
+          element: <DeliveryPage />,
+          handle: {
+            title: 'Lịch sử giao hàng',
+            noFooter: true,
+            noFloatingCart: true,
           },
         },
       ],
     },
   ],
-  { basename: getBasePath() }
+  { basename: getBasePath() },
 );
 
 export default router;

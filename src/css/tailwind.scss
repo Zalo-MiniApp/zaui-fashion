@@ -13,4 +13,17 @@
   --subtitle: #6f7071;
   --danger: #f50000;
   --skeleton: #ebedef;
+
+  --zaui-light-button-primary-background: var(--primary);
+  --zaui-light-button-primary-text: var(--primaryForeground);
+  --zaui-light-button-secondary-background: #d1f0db;
+  --zaui-light-button-secondary-text: #135328;
+  --zaui-light-button-tertiary-text: var(--foreground);
+  --zaui-light-button-primary-background-pressed: var(--zaui-light-button-primary-background);
+  --zaui-light-button-secondary-background-pressed: var(--zaui-light-button-secondary-background);
+  --zaui-light-tabbar-active-line: var(--primary);
+  --zaui-light-tabbar-label-active: var(--primary);
+
+  --safe-top: var(--zaui-safe-area-inset-top, env(safe-area-inset-top, 30px));
+  --safe-bottom: max(16px, var(--zaui-safe-area-inset-bottom, env(safe-area-inset-bottom, 30px)));
 }

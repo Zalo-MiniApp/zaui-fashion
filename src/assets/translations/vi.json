@@ -1,0 +1,52 @@
+{
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Đã xảy ra lỗi",
+    "delete": "Xoá"
+  },
+  "auth": {
+    "login": "Đăng nhập",
+    "loginRequired": "Chúng tôi cần bạn đăng nhập để thực hiện hành động này"
+  },
+  "navigation": {
+    "home": "Trang chủ",
+    "product": "Sản phẩm",
+    "service": "Dịch vụ",
+    "profile": "Tài khoản",
+    "chat": "Nhắn tin",
+    "cart": "Giỏ hàng"
+  },
+  "alerts": {
+    "departmentChanged": "Đã thay đổi chi nhánh",
+    "addressChanged": "Đã thay đổi địa chỉ"
+  },
+  "address": {
+    "add_title": "Thêm địa chỉ",
+    "edit_title": "Chỉnh sửa địa chỉ",
+    "edit_btn": "Cập nhật địa chỉ",
+    "add_btn": "Lưu địa chỉ",
+    "form": {
+      "fullname_label": "Họ và tên người nhận",
+      "fullname_placeholder": "Nhập họ và tên",
+      "phone_label": "Số điện thoại",
+      "phone_placeholder": "Nhập số điện thoại",
+      "ward_label": "Phường/Xã",
+      "ward_placeholder": "Chọn phường/xã",
+      "district_label": "Quận/Huyện",
+      "district_placeholder": "Chọn quận/huyện",
+      "province_label": "Tỉnh/Thành phố",
+      "province_placeholder": "Chọn tỉnh/thành phố",
+      "city_label": "Tỉnh/Thành phố",
+      "city_placeholder": "Chọn tỉnh/thành phố",
+      "address_label": "Địa chỉ chi tiết",
+      "address_placeholder": "Nhập địa chỉ chi tiết",
+      "default_label": "Đặt làm địa chỉ mặc định",
+      "default_placeholder": "Đặt làm địa chỉ mặc định"
+    },
+    "alerts": {
+      "add_success": "Đã thêm địa chỉ thành công",
+      "edit_success": "Đã cập nhật địa chỉ thành công",
+      "delete_success": "Đã xoá địa chỉ thành công"
+    }
+  }
+}

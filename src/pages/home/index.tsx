@@ -1,26 +1,61 @@
-import { useNavigate } from "react-router-dom";
-import Banners from "./banners";
-import SearchBar from "../../components/search-bar";
-import Category from "./category";
-import FlashSales from "./flash-sales";
-import HorizontalDivider from "@/components/horizontal-divider";
-import CategoryTabs from "@/components/category-tabs";
+// HomePage.tsx
+import React from 'react';
+import {
+  HomeBanner,
+  FollowOA,
+  QuickAction,
+  HomeCategory,
+  HomeProducts,
+  HomeNews,
+} from './components';
+import { Modal } from 'zmp-ui';
+import { usePopupBanner } from 'miniapp-core/src';
+// import { useExample, log } from "miniapp-core";
+import { useEffect } from 'react';
 
 const HomePage: React.FunctionComponent = () => {
-  const navigate = useNavigate();
+  const { bannerData, isPopupOpen, closePopup } = usePopupBanner();
+  // const forceFetchCategories = useForceFetchCategories();
+  // const forceFetchProducts = useForceFetchProducts();
+  // const handleRefresh = async () => {
+  //   try {
+  //     await Promise.all([forceFetchCategories(), forceFetchProducts()]);
+  //   } catch (error) {
+  //     console.error('Refresh failed', error);
+  //   }
+  // };
+  // const value = useExample();
+
+  // useEffect(() => {
+  //   log(`Hook returned: ${value}`);
+  // }, []);
+
+  // return (
+  //   <div>
+  //     value: {value}
+  //   </div>
+  // );
+
   return (
+    // <PullToRefresh onRefresh={() => handleRefresh()}>
     <div className="min-h-full bg-section">
-      <div className="bg-background pt-2">
-        <SearchBar onClick={() => navigate("/search")} />
-        <Banners />
-      </div>
-      <div className="bg-background space-y-2 mt-2">
-        <CategoryTabs />
-        <Category />
-      </div>
-      <HorizontalDivider />
-      <FlashSales />
+      <HomeBanner />
+      <FollowOA />
+      <QuickAction />
+      <HomeCategory />
+      <HomeNews />
+      <HomeProducts />
+
+      <Modal
+        visible={isPopupOpen && bannerData !== null}
+        coverSrc={bannerData?.image ?? ''}
+        maskClosable={false}
+        onClose={closePopup}
+        actions={[{ text: 'Đóng', close: true, highLight: true }]}
+        description={bannerData?.description ?? ''}
+      />
     </div>
+    // </PullToRefresh>
   );
 };
 

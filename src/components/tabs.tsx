@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ReactNode } from 'react';
 
 export interface TabsProps<T> {
   items: T[];
@@ -23,8 +23,8 @@ export default function Tabs<T>(props: TabsProps<T>) {
         >
           <div className="flex-1 flex items-center justify-center">
             <span
-              className={"truncate font-medium ".concat(
-                item === props.value ? "" : "text-inactive"
+              className={'truncate font-medium '.concat(
+                item === props.value ? '' : 'text-inactive',
               )}
             >
               {props.renderLabel(item)}

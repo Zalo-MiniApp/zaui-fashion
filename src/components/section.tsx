@@ -1,7 +1,7 @@
-import { PropsWithChildren, ReactNode } from "react";
-import { ChevronRight } from "./vectors";
-import { Link, To } from "react-router-dom";
-import TransitionLink from "./transition-link";
+import { PropsWithChildren, ReactNode } from 'react';
+import { Link, To } from 'react-router-dom';
+import TransitionLink from './TransitionLink';
+import { Icon } from 'zmp-ui';
 
 export interface SectionProps {
   title: ReactNode;
@@ -10,7 +10,7 @@ export interface SectionProps {
 
 export default function Section(props: PropsWithChildren<SectionProps>) {
   return (
-    <div className="bg-background pt-1">
+    <div className="bg-background">
       <div className="flex items-center justify-between px-2">
         <div className="text-sm font-medium p-2 truncate">{props.title}</div>
         {props.viewMoreTo && (
@@ -19,7 +19,7 @@ export default function Section(props: PropsWithChildren<SectionProps>) {
             to={props.viewMoreTo}
           >
             <span>Xem thêm</span>
-            <ChevronRight />
+            <Icon icon="zi-chevron-right" />
           </TransitionLink>
         )}
       </div>

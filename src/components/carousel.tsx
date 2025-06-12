@@ -1,11 +1,11 @@
 // Polyfills
-import ResizeObserver from "resize-observer-polyfill";
+import ResizeObserver from 'resize-observer-polyfill';
 Object.assign(window, { ResizeObserver });
 
-import { ReactNode, useCallback, useEffect, useState } from "react";
-import { EmblaCarouselType } from "embla-carousel";
-import useEmblaCarousel from "embla-carousel-react";
-import Autoplay from "embla-carousel-autoplay";
+import { ReactNode, useCallback, useEffect, useState } from 'react';
+import { EmblaCarouselType } from 'embla-carousel';
+import useEmblaCarousel from 'embla-carousel-react';
+import Autoplay from 'embla-carousel-autoplay';
 
 type UseDotButtonType = {
   selectedIndex: number;
@@ -13,9 +13,7 @@ type UseDotButtonType = {
   onDotButtonClick: (index: number) => void;
 };
 
-export const useDotButton = (
-  emblaApi: EmblaCarouselType | undefined
-): UseDotButtonType => {
+export const useDotButton = (emblaApi: EmblaCarouselType | undefined): UseDotButtonType => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [scrollSnaps, setScrollSnaps] = useState<number[]>([]);
 
@@ -24,7 +22,7 @@ export const useDotButton = (
       if (!emblaApi) return;
       emblaApi.scrollTo(index);
     },
-    [emblaApi]
+    [emblaApi],
   );
 
   const onInit = useCallback((emblaApi: EmblaCarouselType) => {
@@ -40,7 +38,7 @@ export const useDotButton = (
 
     onInit(emblaApi);
     onSelect(emblaApi);
-    emblaApi.on("reInit", onInit).on("reInit", onSelect).on("select", onSelect);
+    emblaApi.on('reInit', onInit).on('reInit', onSelect).on('select', onSelect);
   }, [emblaApi, onInit, onSelect]);
 
   return {
@@ -59,8 +57,7 @@ export default function Carousel(props: CarouselProps) {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
     Autoplay({ active: !props.disabled }),
   ]);
-  const { selectedIndex, scrollSnaps, onDotButtonClick } =
-    useDotButton(emblaApi);
+  const { selectedIndex, scrollSnaps, onDotButtonClick } = useDotButton(emblaApi);
 
   return (
     <div className="overflow-hidden" ref={emblaRef}>
@@ -78,7 +75,7 @@ export default function Carousel(props: CarouselProps) {
             key={index}
             onClick={() => onDotButtonClick(index)}
             className={`rounded-full w-1 h-1 bg-black/10 ${
-              index === selectedIndex && !props.disabled ? "bg-primary" : ""
+              index === selectedIndex && !props.disabled ? 'bg-primary' : ''
             }`}
           />
         ))}

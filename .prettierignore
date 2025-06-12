@@ -1,0 +1,11 @@
+# .prettierignore
+# Bỏ qua các file root
+.prettierrc
+index.html
+postcss.config.js
+tailwind.config.js
+vite.config.mts
+zmp-cli.json
+
+# Bỏ qua module
+src/modules/special-format/**

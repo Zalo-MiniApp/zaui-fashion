@@ -1,0 +1,52 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "delete": "Delete"
+  },
+  "auth": {
+    "login": "Login",
+    "loginRequired": "You need to log in to continue"
+  },
+  "navigation": {
+    "home": "Home",
+    "product": "Product",
+    "service": "Service",
+    "profile": "Profile",
+    "chat": "Chat",
+    "cart": "Cart"
+  },
+  "alerts": {
+    "departmentChanged": "Department changed successfully",
+    "addressChanged": "Address changed successfully"
+  },
+  "address": {
+    "add_title": "Add Address",
+    "edit_title": "Edit Address",
+    "edit_btn": "Update Address",
+    "add_btn": "Save Address",
+    "form": {
+      "fullname_label": "Recipient's Full Name",
+      "fullname_placeholder": "Enter full name",
+      "phone_label": "Phone Number",
+      "phone_placeholder": "Enter phone number",
+      "ward_label": "Ward",
+      "ward_placeholder": "Select ward",
+      "district_label": "District",
+      "district_placeholder": "Select district",
+      "province_label": "Province/City",
+      "province_placeholder": "Select province/city",
+      "city_label": "City",
+      "city_placeholder": "Select city",
+      "address_label": "Detailed Address",
+      "address_placeholder": "Enter detailed address",
+      "default_label": "Set as default address",
+      "default_placeholder": "Set as default address"
+    },
+    "alerts": {
+      "add_success": "Address added successfully",
+      "edit_success": "Address updated successfully",
+      "delete_success": "Address deleted successfully"
+    }
+  }
+}

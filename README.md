@@ -121,3 +121,10 @@ Adjust CSS variables in `src/css/tailwind.scss` as needed to fit your desired br
 | `--primary: red;`                     | `--primary: #008000;`                     |
 | ------------------------------------- | ----------------------------------------- |
 | ![Red](./docs/primary-color-red.webp) | ![Green](./docs/primary-color-green.webp) |
+
+
+
+
+
+"miniapp-core": "file:../miniapp-core"
+"miniapp-core": "git+ssh://git@github.com/miniapp-projects/miniapp-core.git"

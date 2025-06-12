@@ -1,9 +1,9 @@
 {
   "app": {
-    "title": "Clothing store",
+    "title": "Brotech Shop Performance",
     "textColor": "black",
     "headerColor": "#ffffff",
-    "statusBar": "normal",
+    "statusBar": "transparent",
     "actionBarHidden": true,
     "hideAndroidBottomNavigationBar": false,
     "hideIOSSafeAreaBottom": true,
@@ -14,7 +14,8 @@
   "listAsyncJS": [],
   "template": {
     "name": "zaui-fashion",
+    "title": "Brotech Shop Performance",
     "apiUrl": "",
-    "oaIDtoOpenChat": "4318657068771012646"
+    "oaIDtoOpenChat": ""
   }
 }

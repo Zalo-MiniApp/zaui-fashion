@@ -1,6 +1,6 @@
 {
   "cwd": "/Users/lap15182-local/Documents/zmp-blank-templates",
-  "name": "zmp-blank-templates",
+  "name": "miniapp-performance",
   "framework": "react-typescript",
   "cssPreProcessor": "scss",
   "includeTailwind": true,

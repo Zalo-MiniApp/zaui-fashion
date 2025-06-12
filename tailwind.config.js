@@ -18,7 +18,12 @@ module.exports = {
         danger: "var(--danger)",
         skeleton: "var(--skeleton)",
       },
+      spacing: {
+        st: "var(--safe-top)",
+        sb: "var(--safe-bottom)",
+      },
       fontSize: {
+        "4xs": ["10px", "14px"],
         "3xs": ["11px", "16px"],
         "2xs": ["12px", "16px"],
         xs: ["13px", "18px"],
@@ -29,4 +34,17 @@ module.exports = {
       },
     },
   },
+    plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        ".no-scrollbar": {
+          "-ms-overflow-style": "none",
+          "scrollbar-width": "none"
+        },
+        ".no-scrollbar::-webkit-scrollbar": {
+          display: "none"
+        }
+      });
+    }
+  ]
 };
