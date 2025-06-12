@@ -128,3 +128,4 @@ Adjust CSS variables in `src/css/tailwind.scss` as needed to fit your desired br
 
 "miniapp-core": "file:../miniapp-core"
 "miniapp-core": "git+ssh://git@github.com/miniapp-projects/miniapp-core.git"
+"miniapp-core": "git+ssh://git@github.com/miniapp-projects/miniapp-core.git#dev"
