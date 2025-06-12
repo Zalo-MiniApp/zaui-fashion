@@ -27,7 +27,7 @@ export function UserProfile() {
               className="w-24 h-24 rounded-full border-4 border-white shadow-md object-cover"
             />
             {/* Icon nằm chồng lên góc dưới giữa */}
-            <ImageWithLoader
+            <img
               src={badgeIconUrl}
               alt="Badge"
               className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/2 w-10 h-10"
