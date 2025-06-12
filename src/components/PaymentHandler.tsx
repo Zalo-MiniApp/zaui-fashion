@@ -1,92 +1,100 @@
-import React, { useEffect } from "react";
-import { useLocation } from "react-router-dom";
-import { Payment } from "zmp-sdk";
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+import { Payment } from 'zmp-sdk';
+import toast from 'react-hot-toast';
+import { ROUTES, useClearAll } from 'miniapp-core/src';
+import { useNavigate } from 'react-router-dom';
+import { EventName, events } from 'zmp-sdk/apis'; //
 
 const PaymentHandler = () => {
   const location = useLocation();
+  const navigate = useNavigate();
+  const clearCart = useClearAll();
 
-  const clearCart = () => {
-  };
-
-  const checkTransaction = (params: any) => {
-    // gọi api checkTransaction để lấy thông tin giao dịch
+  const checkTransaction = (params: Record<string, any> | string) => {
     Payment.checkTransaction({
       data: params,
-      success: async (rs) => {
-        console.log("Payment.checkTransaction -> success -> ", rs);
+      success: (response) => {
+        const { resultCode, msg } = response;
+        if (resultCode !== -1) {
+          toast.success(msg ?? 'Đặt hàng thành công', {
+            icon: '🎉',
+            duration: 5000,
+          });
+          navigate(ROUTES.delivery);
+          clearCart();
+        } else {
+          toast.error(msg ?? 'Đặt hàng thất bại', {
+            icon: '❌',
+            duration: 5000,
+          });
+        }
       },
-      fail: (err) => {
-        console.log("Payment.checkTransaction -> fail -> ", err);
-      }
+      fail: (error) => {
+        toast.error('Đặt hàng thất bại', {
+          icon: '❌',
+          duration: 5000,
+        });
+      },
     });
   };
 
-  const onOpenApp = (data: any) => {
-    console.log("useEvent -> onOpenApp -> ", data);
-    const params = data?.path;
-    // kiểm tra path trả về từ giao dịch thanh toán
-    // RedirectPath: đã cung cấp tại trang tích hợp thanh toán
-
-    if (params.includes("appTransID")) {
-      checkTransaction(params);
+  const handleOpenApp = (data: any) => {
+    console.log('📲 Open App Event:', data);
+    const path = data?.path;
+    if (path?.includes('appTransID')) {
+      checkTransaction(path);
     }
   };
 
-  const onPaymentClose = (data: any) => {
-    console.log("useEvent -> onPaymentClose -> ", data);
-    const resultCode = data?.resultCode;
-    // kiểm tra resultCode trả về từ sự kiện PaymentClose
-    // 0: Đang xử lý
-    // 1: Thành công
-    // -1: Thất bại
+  const handlePaymentClose = (data: any) => {
+    console.log('💳 Payment Close Event:', data);
+    const { resultCode, zmpOrderId } = data || {};
     switch (resultCode) {
       case 0:
-        checkTransaction({ zmpOrderId: data?.zmpOrderId });
+        checkTransaction({ zmpOrderId });
         break;
       case 1:
+        // TODO: Handle success case
         break;
       case -1:
-        // Xử lý kết quả thanh toán thất bại
-        // TODO: gọi api xóa đơn hàng
-        // cancelOrder();
+        // TODO: cancelOrder();
         break;
     }
   };
 
-  const onDataCallback = (resp: any) => {
-    console.log("useEvent -> onDataCallback -> ", resp); // eslint-disable-line
-    if (!resp) {
-    } else {
-      const { eventType, data } = resp || {};
-      if (eventType === "PAY_BY_BANK") {
-        // Nhận dữ liệu kết quả thanh toán và hiển thị cho người dùng với chuyển khoản ngân hàng
-        if (data.appTransID) {
-          checkTransaction(data);
-        }
-      }
+  const handleDataCallback = (resp: any) => {
+    console.log('📦 Data Callback Event:', resp);
+    // if (!resp) {
+    //   toast.error("Đặt hàng thất bại", {
+    //     icon: '❌',
+    //     duration: 5000,
+    //   });
+    //   return;
+    // }
+    const { eventType, data } = resp || {};
+    if (eventType === 'PAY_BY_BANK' && data?.appTransID) {
+      checkTransaction(data);
     }
   };
 
   useEvent({
-    onOpenApp,
-    onPaymentClose,
-    onDataCallback
+    onOpenApp: handleOpenApp,
+    onPaymentClose: handlePaymentClose,
+    onDataCallback: handleDataCallback,
   });
 
   useEffect(() => {
-    // kiểm tra giao dịch dùng cho phiên bản zalo k hỗ trợ OpenApp, nhận từ redirect path
-    if (location.search.includes("appTransID")) {
+    // fallback for Zalo versions that do not support openApp
+    if (location.search.includes('appTransID')) {
       checkTransaction(location.search);
     }
-  }, []);
+  }, [location.search]);
 
-  return <></>;
+  return null;
 };
 
 export default PaymentHandler;
-
-
-import { EventName, events } from "zmp-sdk/apis"; //
 
 type EventTypes = {
   onOpenApp?: (...args: any[]) => void;
@@ -94,11 +102,7 @@ type EventTypes = {
   onDataCallback?: (...args: any[]) => void;
 };
 
-export const useEvent = ({
-  onOpenApp,
-  onPaymentClose,
-  onDataCallback
-}: EventTypes) => {
+export const useEvent = ({ onOpenApp, onPaymentClose, onDataCallback }: EventTypes) => {
   useEffect(() => {
     events.on(EventName.OpenApp, onOpenApp!);
     events.on(EventName.PaymentClose, onPaymentClose!);

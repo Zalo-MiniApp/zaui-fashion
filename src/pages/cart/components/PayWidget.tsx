@@ -12,16 +12,12 @@ import {
 import { useCurrentSelectedAddress } from 'miniapp-core/src';
 import { TotalPriceSkeleton } from '@/components/skeleton';
 import { useManualOrderCreator } from 'miniapp-core/src';
-import { CheckoutSDK, events, EventName } from 'zmp-sdk/apis';
-import { useNavigate } from 'react-router-dom';
-import toast from 'react-hot-toast';
 
 export const PayWidget: FC = () => {
   const isCalculating = useCalcOrderLoading();
   const paymentMethod = usePaymentMethod();
   const calcOrderResult = useCalcOrderResult();
   const error = useCalcOrderError();
-  const navigate = useNavigate();
 
   const isError = !!error;
   const hasPaymentMethod = !!paymentMethod;
@@ -40,43 +36,6 @@ export const PayWidget: FC = () => {
   const onSubmit = async () => {
     try {
       await handleCreateOrder();
-      // events.once(EventName.PaymentDone, async (data) => {
-      //   const result = await CheckoutSDK.checkTransaction({ data });
-      //   console.log('Payment result:', result);
-
-      //   if (result.resultCode >= 0) {
-      //     // setCart([]);
-      //     // refreshNewOrders();
-      //     navigate('/delivery', {
-      //       viewTransition: true,
-      //     });
-      //   }
-
-      //   switch (result.resultCode) {
-      //     case 1:
-      //       toast.success('Thanh toán thành công. Cảm ơn bạn đã mua hàng!', {
-      //         icon: '🎉',
-      //         duration: 5000,
-      //       });
-      //       break;
-      //     case 0:
-      //       toast('Giao dịch đang xử lý. Cảm ơn bạn đã mua hàng!', {
-      //         icon: '⏳',
-      //         duration: 5000,
-      //       });
-      //       break;
-      //     case -1:
-      //       toast.error('Giao dịch không thành công. Vui lòng thử lại sau.');
-      //       break;
-      //     case -2:
-      //       toast.error('Vui lòng chọn phương thức thanh toán!');
-      //       break;
-      //     default:
-      //       // Giao dịch không hợp lệ, kiểm tra `result.err` & `result.msg` để biết thêm thông tin
-      //       console.error(result);
-      //       toast.error(result.msg);
-      //   }
-      // });
     } catch (e) {
       console.error('Error creating order:', e);
     }
