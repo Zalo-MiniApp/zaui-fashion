@@ -31,7 +31,6 @@
     "framer-motion": "12.15.0",
     "hugeicons-react": "0.3.0",
     "i18next": "25.2.1",
-    "jotai": "2.10.0",
     "jsbarcode": "3.11.6",
     "lodash": "4.17.21",
     "lodash.debounce": "^4.0.8",
@@ -53,7 +52,7 @@
     "zmp-sdk": "2.45.2",
     "zmp-ui": "1.11.5",
     "zustand": "5.0.5",
-    "miniapp-core": "git+ssh://git@github.com/miniapp-projects/miniapp-core.git#dev"
+    "miniapp-core": "file:../miniapp-core"
   },
   "devDependencies": {
     "@types/lodash": "^4.17.17",

@@ -13,6 +13,7 @@ import { useSearchParams } from 'react-router-dom';
 import { useAppConfigLoading, useAppConfig } from 'miniapp-core/src';
 import { AnimatedSlideUp } from '@/components/AnimatedSlideUp';
 import { useAuth } from 'miniapp-core/src';
+import PaymentHandler from './PaymentHandler';
 
 export default function Layout() {
   const { logout, setReferralByCode } = useAuthActions();
@@ -65,6 +66,7 @@ export default function Layout() {
 
       <FloatingCartPreview />
       <LoadingOverlay />
+      <PaymentHandler />
       <ScrollRestoration />
     </div>
   );

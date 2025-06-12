@@ -1,6 +1,5 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useMemo } from 'react';
-import { useAtomValue } from 'jotai';
 
 import { useRouteHandle } from 'miniapp-core/src';
 // import { getTemplate } from '@/utils/common';
