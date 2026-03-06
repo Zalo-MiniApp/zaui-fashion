@@ -148,6 +148,7 @@ export function useRouteHandle() {
     {
       title?: string | Function;
       logo?: boolean;
+      vnptHeader?: boolean;
       back?: boolean;
       scrollRestoration?: number;
     }

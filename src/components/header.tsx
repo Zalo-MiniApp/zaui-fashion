@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import { categoriesStateUpwrapped } from "@/state";
 import headerLogoImage from "@/static/header-logo.svg";
+import vnptLogoImage from "@/static/VNPT.png";
 import { BackIcon } from "./vectors";
 import { useMemo } from "react";
 import { useRouteHandle } from "@/hooks";
@@ -28,6 +29,14 @@ export default function Header() {
   }, [handle, categories]);
 
   const showBack = location.key !== "default" && handle?.back !== false;
+
+  if (handle?.vnptHeader) {
+    return (
+      <div className="w-full bg-white px-4 py-3 flex items-center">
+        <img src={vnptLogoImage} className="h-12" alt="VNPT" />
+      </div>
+    );
+  }
 
   if (handle?.logo) {
     return (

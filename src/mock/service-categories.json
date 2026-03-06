@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "name": "DI ĐỘNG - SIM DATA",
+    "icon": "📱",
+    "description": "Các gói cước data di động tốc độ cao"
+  },
+  {
+    "id": 2,
+    "name": "DI ĐỘNG - COMBO",
+    "icon": "📞",
+    "description": "Gói combo data + gọi thoại"
+  },
+  {
+    "id": 3,
+    "name": "DI ĐỘNG - GỌI THOẠI",
+    "icon": "☎️",
+    "description": "Gói cước gọi thoại nội mạng & ngoại mạng"
+  },
+  {
+    "id": 4,
+    "name": "INTERNET FTTH - GIA ĐÌNH",
+    "icon": "🌐",
+    "description": "Internet cáp quang cho hộ gia đình"
+  },
+  {
+    "id": 5,
+    "name": "INTERNET FTTH - DOANH NGHIỆP",
+    "icon": "🏢",
+    "description": "Internet cáp quang dành cho doanh nghiệp"
+  },
+  {
+    "id": 6,
+    "name": "TRUYỀN HÌNH MYTV",
+    "icon": "📺",
+    "description": "Truyền hình số MyTV đa nền tảng"
+  },
+  {
+    "id": 7,
+    "name": "CAMERA GIÁM SÁT",
+    "icon": "📹",
+    "description": "Giải pháp camera an ninh thông minh"
+  },
+  {
+    "id": 8,
+    "name": "HỢP ĐỒNG ĐIỆN TỬ",
+    "icon": "📄",
+    "description": "Dịch vụ ký số & quản lý hợp đồng"
+  },
+  {
+    "id": 9,
+    "name": "CLOUD SERVER",
+    "icon": "☁️",
+    "description": "Máy chủ đám mây & lưu trữ dữ liệu"
+  },
+  {
+    "id": 10,
+    "name": "SMS BRANDNAME",
+    "icon": "💬",
+    "description": "Tin nhắn thương hiệu cho doanh nghiệp"
+  },
+  {
+    "id": 11,
+    "name": "TỔNG ĐÀI ẢO",
+    "icon": "📞",
+    "description": "Hệ thống tổng đài ảo chuyên nghiệp"
+  },
+  {
+    "id": 12,
+    "name": "AN NINH MẠNG",
+    "icon": "🛡️",
+    "description": "Giải pháp bảo mật & an ninh mạng"
+  },
+  {
+    "id": 13,
+    "name": "IOT - SMART HOME",
+    "icon": "🏠",
+    "description": "Giải pháp nhà thông minh IoT"
+  },
+  {
+    "id": 14,
+    "name": "VPN DOANH NGHIỆP",
+    "icon": "🔐",
+    "description": "Mạng riêng ảo VPN cho doanh nghiệp"
+  },
+  {
+    "id": 15,
+    "name": "EMAIL DOANH NGHIỆP",
+    "icon": "📧",
+    "description": "Email theo tên miền doanh nghiệp"
+  },
+  {
+    "id": 16,
+    "name": "WEBSITE & HOSTING",
+    "icon": "🌍",
+    "description": "Thiết kế web & hosting chuyên nghiệp"
+  },
+  {
+    "id": 17,
+    "name": "HỘI NGHỊ TRUYỀN HÌNH",
+    "icon": "🎥",
+    "description": "Giải pháp họp trực tuyến video call"
+  },
+  {
+    "id": 18,
+    "name": "MARKETING ONLINE",
+    "icon": "📊",
+    "description": "Dịch vụ marketing & quảng cáo số"
+  },
+  {
+    "id": 19,
+    "name": "KHO DỮ LIỆU (DATA CENTER)",
+    "icon": "🗄️",
+    "description": "Thuê chỗ đặt máy chủ & data center"
+  },
+  {
+    "id": 20,
+    "name": "THANH TOÁN ĐIỆN TỬ",
+    "icon": "💳",
+    "description": "Cổng thanh toán & ví điện tử"
+  },
+  {
+    "id": 21,
+    "name": "BẢO HIỂM SỐ",
+    "icon": "🏥",
+    "description": "Gói bảo hiểm qua mạng di động"
+  },
+  {
+    "id": 22,
+    "name": "GIÁO DỤC TRỰC TUYẾN",
+    "icon": "🎓",
+    "description": "Nền tảng học online & e-learning"
+  },
+  {
+    "id": 23,
+    "name": "Y TẾ TRỰC TUYẾN",
+    "icon": "⚕️",
+    "description": "Tư vấn khám chữa bệnh từ xa"
+  },
+  {
+    "id": 24,
+    "name": "VNPT PAY",
+    "icon": "💰",
+    "description": "Ví điện tử & thanh toán hóa đơn"
+  },
+  {
+    "id": 25,
+    "name": "AI & BIGDATA",
+    "icon": "🤖",
+    "description": "Giải pháp trí tuệ nhân tạo & phân tích dữ liệu"
+  }
+]

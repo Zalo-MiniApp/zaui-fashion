@@ -14,6 +14,34 @@ export const bannersState = atom(() =>
   requestWithFallback<string[]>("/banners", [])
 );
 
+export const servicesState = atom(() =>
+  requestWithFallback<any[]>("/services", [])
+);
+
+export const serviceCategoriesState = atom(() =>
+  requestWithFallback<any[]>("/service-categories", [])
+);
+
+export const serviceDetailsState = atom(() =>
+  requestWithFallback<any[]>("/service-details", [])
+);
+
+export const dataServiceDetailsState = atom(() =>
+  requestWithFallback<any[]>("/data-service-detail", [])
+);
+
+export const internetServiceDetailsState = atom(() =>
+  requestWithFallback<any[]>("/internet-service-detail", [])
+);
+
+export const mytvServiceDetailsState = atom(() =>
+  requestWithFallback<any[]>("/mytv-service-detail", [])
+);
+
+export const econtractServiceDetailsState = atom(() =>
+  requestWithFallback<any[]>("/econtract-service-detail", [])
+);
+
 export const tabsState = atom(["Tất cả", "Nam", "Nữ", "Trẻ em"]);
 
 export const selectedTabIndexState = atom(0);

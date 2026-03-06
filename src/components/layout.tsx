@@ -1,6 +1,5 @@
 import { Outlet } from "react-router-dom";
 import Header from "./header";
-import Footer from "./footer";
 import { Suspense } from "react";
 import { PageSkeleton } from "./skeleton";
 import { Toaster } from "react-hot-toast";
@@ -15,7 +14,6 @@ export default function Layout() {
           <Outlet />
         </Suspense>
       </div>
-      <Footer />
       <Toaster
         containerClassName="toast-container"
         containerStyle={{

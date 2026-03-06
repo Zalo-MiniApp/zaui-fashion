@@ -1,0 +1,118 @@
+[
+  {
+    "note": "Data di động",
+    "id": 1,
+    "categoryId": 1,
+    "name": "D199G",
+    "description": "8GB Data/ngày (hết dung lượng đúng tr...",
+    "price": 199000,
+    "badge": "8GB/ngày",
+    "details": "2.000đ nội mạng + 250đ ngoại mạng",
+    "image": "https://api-myvnpt.vnpt.vn/vas/images/vasPkgs/1711349943142Artboard%2045@4x.jpg"
+  },
+  {
+    "id": 2,
+    "categoryId": 1,
+    "name": "V149N",
+    "description": "2000 phút gọi nội mạng, 250 phút gọi ngoại mạng và 1GB data/ngày tốc độ cao mỗi ngày",
+    "price": 149000,
+    "image": "https://api-myvnpt.vnpt.vn/vas/images/vasPkgs/1731920454753V149N%20500x500.jpg"
+  },
+  {
+    "id": 3,
+    "categoryId": 1,
+    "name": "V249N",
+    "description": "Miễn phí tải khoản truy cập ứng dụ...",
+    "price": 249000 ,
+    "badge": "7GB/ngày",
+    "image": "https://api-myvnpt.vnpt.vn/vas/images/vasPkgs/1731920931961V249N%20500x500.jpg"
+  },
+
+  {
+    "note": "Internet FTTH",
+    "id": 4,
+    "categoryId": 2,
+    "name": "HOME SAFE",
+    "description": "Gói Home Safe là sự kết hợp hoàn hảo k...",
+    "price": 1494000,
+    "details": "02 Camera indoor - outdoor",
+    "badge": "150Mbps",
+    "image": "https://via.placeholder.com/300x150/1E40AF/FFFFFF?text=HOME+SAFE"
+  },
+  {
+    "id": 5,
+    "categoryId": 2,
+    "name": "HOME NET 1",
+    "description": "Đường truyền Internet tốc độ 100Mbps Dic...",
+    "price": 990000,
+    "details": "Bảo mật Internet GreenNet",
+    "badge": "100Mbps",
+    "image": "https://via.placeholder.com/300x150/1E40AF/FFFFFF?text=HOME+NET+1"
+  },
+  {
+    "id": 6,
+    "categoryId": 2,
+    "name": "HOME NET 2",
+    "description": "Đường truyền Internet tốc độ 150Mbps I...",
+    "price": 2640000,
+    "details": "Bảo mật Internet GreenNet",
+    "badge": "150Mbps",
+    "image": "https://via.placeholder.com/300x150/1E40AF/FFFFFF?text=HOME+NET+2"
+  },
+
+
+  {
+    "note": "MyTV",
+    "id": 7,
+    "categoryId": 3,
+    "name": "NÂNG CAO 7 THÁNG",
+    "description": "Gói cước MyTV Fix cơ bản dành riêng cho khách hàng sử dụng đường truyền Internet VNPT",
+    "price": 330000,
+    "details": "20 kênh VTV Cab + Gói Galaxy Play cao cấp",
+    "image": "https://via.placeholder.com/300x150/1E3A8A/FFFFFF?text=NANG+CAO+7"
+  },
+  {
+    "id": 8,
+    "categoryId": 3,
+    "name": "CHUẨN 7 THÁNG",
+    "description": "Hơn 140 kênh truyền hình đặc sắc, hấp dẫn.",
+    "price": 240000,
+    "details": "20 kênh VTV Cab + Kho VOD miễn phí",
+    "image": "https://via.placeholder.com/300x150/1E3A8A/FFFFFF?text=CHUAN+7"
+  },
+  {
+    "id": 9,
+    "categoryId": 3,
+    "name": "CHUẨN 1 THÁNG",
+    "description": "Hơn 140 kênh truyền hình đặc sắc, hấp dẫn.",
+    "price": 40000,
+    "details": "20 kênh VTV Cab + Kho VOD miễn phí",
+    "image": "https://via.placeholder.com/300x150/1E3A8A/FFFFFF?text=CHUAN+1"
+  },
+
+  {
+    "note": "Hợp đồng điện tử",
+    "id": 10,
+    "categoryId": 4,
+    "name": "SME_E50",
+    "description": "Dung lượng lưu trữ 250MB",
+    "price": 180000,
+    "image": "https://via.placeholder.com/300x150/1E3A8A/FFFFFF?text=NANG+CAO+7"
+  },
+  {
+    "id": 11,
+    "categoryId": 4,
+    "name": "SME_E100",
+    "description": "Dung lượng lưu trữ 500MB.",
+    "price": 330000,
+    "image": "https://via.placeholder.com/300x150/1E3A8A/FFFFFF?text=CHUAN+7"
+  },
+  {
+    "id": 12,
+    "categoryId": 4,
+    "name": "SME_E200",
+    "description": "Dung lượng lưu trữ 1000MB",
+    "price": 600000,
+    "image": "https://via.placeholder.com/300x150/1E3A8A/FFFFFF?text=CHUAN+1"
+  }
+]

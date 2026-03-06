@@ -1,0 +1,941 @@
+[
+  {
+    "note": "DI ĐỘNG - SIM DATA",
+    "id": 1,
+    "categoryId": 1,
+    "name": "D50",
+    "description": "1.5GB data/ngày tốc độ cao, phù hợp cho nhu cầu basic",
+    "price": 50000,
+    "badge": "1.5GB/ngày",
+    "details": "Miễn phí lướt web & app phổ biến",
+    "image": "https://via.placeholder.com/300x150/DC2626/FFFFFF?text=D50"
+  },
+  {
+    "id": 2,
+    "categoryId": 1,
+    "name": "D90",
+    "description": "3GB data/ngày tốc độ cao, xem video mượt mà",
+    "price": 90000,
+    "badge": "3GB/ngày",
+    "details": "Tặng 10GB data ban đêm",
+    "image": "https://via.placeholder.com/300x150/DC2626/FFFFFF?text=D90"
+  },
+  {
+    "id": 3,
+    "categoryId": 1,
+    "name": "D199G",
+    "description": "8GB data/ngày tốc độ cao, không giới hạn",
+    "price": 199000,
+    "badge": "8GB/ngày",
+    "details": "Tặng 20GB data ban đêm + free 4G",
+    "image": "https://via.placeholder.com/300x150/DC2626/FFFFFF?text=D199G"
+  },
+  {
+    "id": 4,
+    "categoryId": 1,
+    "name": "D299",
+    "description": "15GB data/ngày tốc độ cao, cho người dùng heavy",
+    "price": 299000,
+    "badge": "15GB/ngày",
+    "details": "Miễn phí Youtube & Netflix",
+    "image": "https://via.placeholder.com/300x150/DC2626/FFFFFF?text=D299"
+  },
+
+  {
+    "note": "DI ĐỘNG - COMBO",
+    "id": 5,
+    "categoryId": 2,
+    "name": "V149N",
+    "description": "2000 phút gọi nội mạng + 250 phút ngoại mạng + 1.5GB data/ngày",
+    "price": 149000,
+    "badge": "2000p + 1.5GB",
+    "details": "Combo osòng dùng gia đình",
+    "image": "https://via.placeholder.com/300x150/EA580C/FFFFFF?text=V149N"
+  },
+  {
+    "id": 6,
+    "categoryId": 2,
+    "name": "V249N",
+    "description": "3000 phút gọi nội mạng + 450 phút ngoại mạng + 2GB data/ngày",
+    "price": 249000,
+    "badge": "3000p + 2GB",
+    "details": "Tặng kho VOD MyTV",
+    "image": "https://via.placeholder.com/300x150/EA580C/FFFFFF?text=V249N"
+  },
+  {
+    "id": 7,
+    "categoryId": 2,
+    "name": "V349",
+    "description": "Gọi thoại không giới hạn + 5GB data/ngày tốc độ cao",
+    "price": 349000,
+    "badge": "Không giới hạn",
+    "details": "Tích hợp MyTV Premium",
+    "image": "https://via.placeholder.com/300x150/EA580C/FFFFFF?text=V349"
+  },
+  {
+    "id": 8,
+    "categoryId": 2,
+    "name": "V449 SUPER",
+    "description": "Combo cực đỉnh: gọi thoại + data + giải trí all-in-one",
+    "price": 449000,
+    "badge": "All-in-one",
+    "details": "Gọi không giới hạn + 10GB/ngày + MyTV + Spotify",
+    "image": "https://via.placeholder.com/300x150/EA580C/FFFFFF?text=V449"
+  },
+
+  {
+    "note": "DI ĐỘNG - GỌI THOẠI",
+    "id": 9,
+    "categoryId": 3,
+    "name": "C90N",
+    "description": "500 phút gọi nội mạng, phù hợp cho người ít gọi",
+    "price": 90000,
+    "badge": "500 phút",
+    "details": "Giá cước ngoại mạng 800đ/phút",
+    "image": "https://via.placeholder.com/300x150/7C3AED/FFFFFF?text=C90N"
+  },
+  {
+    "id": 10,
+    "categoryId": 3,
+    "name": "C120N",
+    "description": "1000 phút gọi nội mạng + 100 phút ngoại mạng",
+    "price": 120000,
+    "badge": "1000p nội mạng",
+    "details": "Miễn phí SMS nội mạng",
+    "image": "https://via.placeholder.com/300x150/7C3AED/FFFFFF?text=C120N"
+  },
+  {
+    "id": 11,
+    "categoryId": 3,
+    "name": "C180 PREMIUM",
+    "description": "2500 phút gọi nội mạng + 300 phút ngoại mạng",
+    "price": 180000,
+    "badge": "2500 phút",
+    "details": "Tặng 500MB data/ngày",
+    "image": "https://via.placeholder.com/300x150/7C3AED/FFFFFF?text=C180"
+  },
+
+  {
+    "note": "INTERNET FTTH - GIA ĐÌNH",
+    "id": 12,
+    "categoryId": 4,
+    "name": "HOME NET 1",
+    "description": "Internet cáp quang 100Mbps ổn định cho gia đình 3-4 người",
+    "price": 990000,
+    "badge": "100Mbps",
+    "details": "Modem Wifi 6 + bảo mật GreenNet",
+    "image": "https://via.placeholder.com/300x150/1E40AF/FFFFFF?text=HOME+NET+1"
+  },
+  {
+    "id": 13,
+    "categoryId": 4,
+    "name": "HOME NET 2",
+    "description": "Internet cáp quang 150Mbps cho gia đình đông người",
+    "price": 1290000,
+    "badge": "150Mbps",
+    "details": "Modem Wifi 6 Dual-band + bảo mật",
+    "image": "https://via.placeholder.com/300x150/1E40AF/FFFFFF?text=HOME+NET+2"
+  },
+  {
+    "id": 14,
+    "categoryId": 4,
+    "name": "HOME NET 3 ULTRA",
+    "description": "Internet cáp quang 250Mbps siêu tốc, gaming & streaming 4K",
+    "price": 1690000,
+    "badge": "250Mbps",
+    "details": "Modem Wifi 6E + IP tỉnh + bảo mật cao cấp",
+    "image": "https://via.placeholder.com/300x150/1E40AF/FFFFFF?text=HOME+NET+3"
+  },
+  {
+    "id": 15,
+    "categoryId": 4,
+    "name": "HOME SAFE",
+    "description": "Combo Internet 150Mbps + 2 Camera an ninh",
+    "price": 1494000,
+    "badge": "150Mbps + Camera",
+    "details": "02 Camera indoor/outdoor + Cloud storage 30 ngày",
+    "image": "https://via.placeholder.com/300x150/1E40AF/FFFFFF?text=HOME+SAFE"
+  },
+  {
+    "id": 16,
+    "categoryId": 4,
+    "name": "HOME ENTERTAINMENT",
+    "description": "Internet 200Mbps + MyTV Premium + Smarthome",
+    "price": 1890000,
+    "badge": "200Mbps + MyTV",
+    "details": "MyTV 180 kênh + Google Home Hub",
+    "image": "https://via.placeholder.com/300x150/1E40AF/FFFFFF?text=HOME+ENT"
+  },
+
+  {
+    "note": "INTERNET FTTH - DOANH NGHIỆP",
+    "id": 17,
+    "categoryId": 5,
+    "name": "BIZ NET 100",
+    "description": "Internet doanh nghiệp 100Mbps, cam kết SLA 99.5%",
+    "price": 2500000,
+    "badge": "100Mbps SLA",
+    "details": "IP tĩnh + hỗ trợ kỹ thuật 24/7",
+    "image": "https://via.placeholder.com/300x150/059669/FFFFFF?text=BIZ+100"
+  },
+  {
+    "id": 18,
+    "categoryId": 5,
+    "name": "BIZ NET 250",
+    "description": "Internet doanh nghiệp 250Mbps, SLA 99.9%",
+    "price": 4500000,
+    "badge": "250Mbps SLA",
+    "details": "IP tĩnh + Firewall chuyên dụng + hỗ trợ onsite",
+    "image": "https://via.placeholder.com/300x150/059669/FFFFFF?text=BIZ+250"
+  },
+  {
+    "id": 19,
+    "categoryId": 5,
+    "name": "BIZ NET 500 ELITE",
+    "description": "Internet doanh nghiệp 500Mbps, SLA 99.99%",
+    "price": 7900000,
+    "badge": "500Mbps Elite",
+    "details": "Multi IP tĩnh + Firewall cao cấp + load balancing",
+    "image": "https://via.placeholder.com/300x150/059669/FFFFFF?text=BIZ+500"
+  },
+  {
+    "id": 20,
+    "categoryId": 5,
+    "name": "BIZ NET 1000 PREMIUM",
+    "description": "Internet doanh nghiệp 1Gbps, SLA 99.99% + backup line",
+    "price": 12900000,
+    "badge": "1Gbps Premium",
+    "details": "Dual line dự phòng + Multi IP + DDoS Protection",
+    "image": "https://via.placeholder.com/300x150/059669/FFFFFF?text=BIZ+1000"
+  },
+
+  {
+    "note": "TRUYỀN HÌNH MYTV",
+    "id": 21,
+    "categoryId": 6,
+    "name": "MYTV BASIC 1 THÁNG",
+    "description": "Gói cơ bản 80+ kênh truyền hình phổ thông",
+    "price": 30000,
+    "badge": "80 kênh",
+    "details": "Kho VOD miễn phí 1000+ phim",
+    "image": "https://via.placeholder.com/300x150/1E3A8A/FFFFFF?text=MYTV+BASIC"
+  },
+  {
+    "id": 22,
+    "categoryId": 6,
+    "name": "MYTV CHUẨN 1 THÁNG",
+    "description": "140+ kênh truyền hình đặc sắc, hấp dẫn",
+    "price": 40000,
+    "badge": "140 kênh",
+    "details": "20 kênh VTV Cab + VOD Premium",
+    "image": "https://via.placeholder.com/300x150/1E3A8A/FFFFFF?text=MYTV+CHUAN"
+  },
+  {
+    "id": 23,
+    "categoryId": 6,
+    "name": "MYTV NÂNG CAO 1 THÁNG",
+    "description": "180+ kênh HD/4K + Galaxy Play cao cấp",
+    "price": 60000,
+    "badge": "180 kênh HD",
+    "details": "Gói Galaxy Play + HBO + K+",
+    "image": "https://via.placeholder.com/300x150/1E3A8A/FFFFFF?text=MYTV+NANGCAO"
+  },
+  {
+    "id": 24,
+    "categoryId": 6,
+    "name": "MYTV PREMIUM 1 THÁNG",
+    "description": "220+ kênh HD/4K + tất cả gói giải trí cao cấp",
+    "price": 120000,
+    "badge": "220 kênh 4K",
+    "details": "All channels + Netflix Basic + Spotify",
+    "image": "https://via.placeholder.com/300x150/1E3A8A/FFFFFF?text=MYTV+PREMIUM"
+  },
+  {
+    "id": 25,
+    "categoryId": 6,
+    "name": "MYTV CHUẨN 7 THÁNG",
+    "description": "Gói 7 tháng tiết kiệm 15%",
+    "price": 240000,
+    "badge": "140 kênh x7",
+    "details": "Tiết kiệm 40.000đ",
+    "image": "https://via.placeholder.com/300x150/1E3A8A/FFFFFF?text=CHUAN+7T"
+  },
+
+  {
+    "note": "CAMERA GIÁM SÁT",
+    "id": 26,
+    "categoryId": 7,
+    "name": "CAM HOME 2",
+    "description": "Gói 2 camera giám sát gia đình chất lượng 2K",
+    "price": 990000,
+    "badge": "2 Camera 2K",
+    "details": "Cloud storage 7 ngày + AI phát hiện chuyển động",
+    "image": "https://via.placeholder.com/300x150/B91C1C/FFFFFF?text=CAM+HOME+2"
+  },
+  {
+    "id": 27,
+    "categoryId": 7,
+    "name": "CAM HOME 4",
+    "description": "Gói 4 camera toàn diện cho nhà phố/biệt thự",
+    "price": 1790000,
+    "badge": "4 Camera 2K",
+    "details": "Cloud 30 ngày + AI nhận diện khuôn mặt",
+    "image": "https://via.placeholder.com/300x150/B91C1C/FFFFFF?text=CAM+HOME+4"
+  },
+  {
+    "id": 28,
+    "categoryId": 7,
+    "name": "CAM PRO 4K",
+    "description": "Camera 4K chuyên nghiệp cho cửa hàng/văn phòng",
+    "price": 2490000,
+    "badge": "4K Pro",
+    "details": "Bộ 4 camera 4K + NVR + Cloud 3 tháng + AI analytics",
+    "image": "https://via.placeholder.com/300x150/B91C1C/FFFFFF?text=CAM+PRO"
+  },
+  {
+    "id": 29,
+    "categoryId": 7,
+    "name": "CAM BUSINESS 8",
+    "description": "Hệ thống 8 camera doanh nghiệp với AI cao cấp",
+    "price": 4990000,
+    "badge": "8 Camera AI",
+    "details": "8 cam 4K + NVR 4TB + AI đếm người + Cloud 6 tháng",
+    "image": "https://via.placeholder.com/300x150/B91C1C/FFFFFF?text=CAM+BIZ"
+  },
+
+  {
+    "note": "HỢP ĐỒNG ĐIỆN TỬ",
+    "id": 30,
+    "categoryId": 8,
+    "name": "eContract BASIC",
+    "description": "Gói ký số cơ bản 50 hợp đồng/tháng",
+    "price": 180000,
+    "badge": "50 HĐ/tháng",
+    "details": "Lưu trữ 250MB + mẫu hợp đồng có sẵn",
+    "image": "https://via.placeholder.com/300x150/C026D3/FFFFFF?text=eCONTRACT"
+  },
+  {
+    "id": 31,
+    "categoryId": 8,
+    "name": "eContract STANDARD",
+    "description": "Gói ký số tiêu chuẩn 200 hợp đồng/tháng",
+    "price": 490000,
+    "badge": "200 HĐ/tháng",
+    "details": "Lưu trữ 1GB + API tích hợp + báo cáo thống kê",
+    "image": "https://via.placeholder.com/300x150/C026D3/FFFFFF?text=eCON+STD"
+  },
+  {
+    "id": 32,
+    "categoryId": 8,
+    "name": "eContract ENTERPRISE",
+    "description": "Gói doanh nghiệp không giới hạn hợp đồng",
+    "price": 1290000,
+    "badge": "Không giới hạn",
+    "details": "Lưu trữ 10GB + API + Multi-user + White-label",
+    "image": "https://via.placeholder.com/300x150/C026D3/FFFFFF?text=eCON+ENT"
+  },
+
+  {
+    "note": "CLOUD SERVER",
+    "id": 33,
+    "categoryId": 9,
+    "name": "VPS BASIC",
+    "description": "Máy chủ ảo cơ bản 2 Core / 4GB RAM / 50GB SSD",
+    "price": 299000,
+    "badge": "2Core/4GB",
+    "details": "Băng thông 2TB + backup hàng tuần",
+    "image": "https://via.placeholder.com/300x150/0891B2/FFFFFF?text=VPS+BASIC"
+  },
+  {
+    "id": 34,
+    "categoryId": 9,
+    "name": "VPS STANDARD",
+    "description": "Máy chủ ảo tiêu chuẩn 4 Core / 8GB RAM / 100GB SSD",
+    "price": 599000,
+    "badge": "4Core/8GB",
+    "details": "Băng thông 5TB + backup hàng ngày + monitoring",
+    "image": "https://via.placeholder.com/300x150/0891B2/FFFFFF?text=VPS+STD"
+  },
+  {
+    "id": 35,
+    "categoryId": 9,
+    "name": "VPS PRO",
+    "description": "Máy chủ ảo chuyên nghiệp 8 Core / 16GB RAM / 250GB SSD",
+    "price": 1190000,
+    "badge": "8Core/16GB",
+    "details": "Băng thông không giới hạn + backup real-time + DDoS protect",
+    "image": "https://via.placeholder.com/300x150/0891B2/FFFFFF?text=VPS+PRO"
+  },
+  {
+    "id": 36,
+    "categoryId": 9,
+    "name": "CLOUD STORAGE 500GB",
+    "description": "Lưu trữ đám mây 500GB bảo mật cao",
+    "price": 199000,
+    "badge": "500GB",
+    "details": "Sync đa thiết bị + chia sẻ file + bảo mật 2 lớp",
+    "image": "https://via.placeholder.com/300x150/0891B2/FFFFFF?text=CLOUD+500"
+  },
+  {
+    "id": 37,
+    "categoryId": 9,
+    "name": "CLOUD STORAGE 2TB",
+    "description": "Lưu trữ đám mây 2TB cho doanh nghiệp",
+    "price": 590000,
+    "badge": "2TB",
+    "details": "Team collaboration + version control + admin console",
+    "image": "https://via.placeholder.com/300x150/0891B2/FFFFFF?text=CLOUD+2TB"
+  },
+
+  {
+    "note": "SMS BRANDNAME",
+    "id": 38,
+    "categoryId": 10,
+    "name": "SMS STARTER",
+    "description": "Gói SMS Brandname 5.000 tin/tháng",
+    "price": 350000,
+    "badge": "5K tin",
+    "details": "Tên thương hiệu + báo cáo chi tiết + API",
+    "image": "https://via.placeholder.com/300x150/DC2626/FFFFFF?text=SMS+START"
+  },
+  {
+    "id": 39,
+    "categoryId": 10,
+    "name": "SMS GROWTH",
+    "description": "Gói SMS Brandname 20.000 tin/tháng",
+    "price": 1200000,
+    "badge": "20K tin",
+    "details": "Multi brandname + schedule + template library",
+    "image": "https://via.placeholder.com/300x150/DC2626/FFFFFF?text=SMS+GROWTH"
+  },
+  {
+    "id": 40,
+    "categoryId": 10,
+    "name": "SMS ENTERPRISE",
+    "description": "Gói SMS Brandname 100.000+ tin/tháng",
+    "price": 4900000,
+    "badge": "100K+ tin",
+    "details": "Unlimited brandname + API premium + dedicated support",
+    "image": "https://via.placeholder.com/300x150/DC2626/FFFFFF?text=SMS+ENT"
+  },
+
+  {
+    "note": "TỔNG ĐÀI ẢO",
+    "id": 41,
+    "categoryId": 11,
+    "name": "CALLCENTER 3 USERS",
+    "description": "Tổng đài ảo 3 users cơ bản",
+    "price": 450000,
+    "badge": "3 Users",
+    "details": "Hotline 1900/1800 + ghi âm + báo cáo",
+    "image": "https://via.placeholder.com/300x150/EA580C/FFFFFF?text=CALL+3U"
+  },
+  {
+    "id": 42,
+    "categoryId": 11,
+    "name": "CALLCENTER 10 USERS",
+    "description": "Tổng đài ảo 10 users tiêu chuẩn",
+    "price": 1290000,
+    "badge": "10 Users",
+    "details": "Multi hotline + IVR + CRM tích hợp + analytics",
+    "image": "https://via.placeholder.com/300x150/EA580C/FFFFFF?text=CALL+10U"
+  },
+  {
+    "id": 43,
+    "categoryId": 11,
+    "name": "CALLCENTER 50 USERS PRO",
+    "description": "Tổng đài ảo 50 users chuyên nghiệp",
+    "price": 4990000,
+    "badge": "50 Users Pro",
+    "details": "Unlimited hotline + AI bot + omnichannel + dashboard",
+    "image": "https://via.placeholder.com/300x150/EA580C/FFFFFF?text=CALL+50U"
+  },
+
+  {
+    "note": "AN NINH MẠNG",
+    "id": 44,
+    "categoryId": 12,
+    "name": "GREENNET BASIC",
+    "description": "Bảo mật web cơ bản chống malware & phishing",
+    "price": 290000,
+    "badge": "Web Security",
+    "details": "DNS filtering + malware block + parental control",
+    "image": "https://via.placeholder.com/300x150/15803D/FFFFFF?text=GREEN+BASIC"
+  },
+  {
+    "id": 45,
+    "categoryId": 12,
+    "name": "GREENNET PRO",
+    "description": "Bảo mật toàn diện cho doanh nghiệp SME",
+    "price": 890000,
+    "badge": "Enterprise Security",
+    "details": "Firewall + IPS/IDS + VPN + anti-DDoS + 24/7 SOC",
+    "image": "https://via.placeholder.com/300x150/15803D/FFFFFF?text=GREEN+PRO"
+  },
+  {
+    "id": 46,
+    "categoryId": 12,
+    "name": "DDoS PROTECTION",
+    "description": "Chống tấn công DDoS chuyên nghiệp",
+    "price": 1990000,
+    "badge": "Anti-DDoS",
+    "details": "Protection 100Gbps + WAF + CDN + monitoring 24/7",
+    "image": "https://via.placeholder.com/300x150/15803D/FFFFFF?text=ANTI+DDOS"
+  },
+  {
+    "id": 47,
+    "categoryId": 12,
+    "name": "SECURITY AUDIT",
+    "description": "Dịch vụ đánh giá & kiểm thử bảo mật",
+    "price": 5900000,
+    "badge": "Audit",
+    "details": "Penetration test + vulnerability scan + compliance report",
+    "image": "https://via.placeholder.com/300x150/15803D/FFFFFF?text=AUDIT"
+  },
+
+  {
+    "note": "IOT - SMART HOME",
+    "id": 48,
+    "categoryId": 13,
+    "name": "SMART HOME STARTER",
+    "description": "Bộ khởi đầu nhà thông minh 5 thiết bị",
+    "price": 1490000,
+    "badge": "5 Devices",
+    "details": "Hub + 2 công tắc + cảm biến cửa + cảm biến chuyển động",
+    "image": "https://via.placeholder.com/300x150/7C3AED/FFFFFF?text=SMART+START"
+  },
+  {
+    "id": 49,
+    "categoryId": 13,
+    "name": "SMART HOME PLUS",
+    "description": "Gói nâng cao 12 thiết bị IoT",
+    "price": 2990000,
+    "badge": "12 Devices",
+    "details": "Hub + công tắc + cảm biến + rèm thông minh + điều hòa",
+    "image": "https://via.placeholder.com/300x150/7C3AED/FFFFFF?text=SMART+PLUS"
+  },
+  {
+    "id": 50,
+    "categoryId": 13,
+    "name": "SMART HOME PREMIUM",
+    "description": "Giải pháp nhà thông minh toàn diện 25+ thiết bị",
+    "price": 5990000,
+    "badge": "25+ Devices",
+    "details": "Full automation + AI scene + voice control + energy monitor",
+    "image": "https://via.placeholder.com/300x150/7C3AED/FFFFFF?text=SMART+PREMIUM"
+  },
+
+  {
+    "note": "VPN DOANH NGHIỆP",
+    "id": 51,
+    "categoryId": 14,
+    "name": "VPN 10 USERS",
+    "description": "VPN doanh nghiệp 10 users làm việc từ xa",
+    "price": 590000,
+    "badge": "10 Users",
+    "details": "SSL VPN + multi-platform + 2FA + bandwidth 100Mbps",
+    "image": "https://via.placeholder.com/300x150/0284C7/FFFFFF?text=VPN+10"
+  },
+  {
+    "id": 52,
+    "categoryId": 14,
+    "name": "VPN 50 USERS",
+    "description": "VPN doanh nghiệp 50 users cao cấp",
+    "price": 1990000,
+    "badge": "50 Users",
+    "details": "Site-to-site + SSL VPN + load balancing + 500Mbps",
+    "image": "https://via.placeholder.com/300x150/0284C7/FFFFFF?text=VPN+50"
+  },
+  {
+    "id": 53,
+    "categoryId": 14,
+    "name": "VPN ENTERPRISE",
+    "description": "VPN enterprise không giới hạn users",
+    "price": 4990000,
+    "badge": "Unlimited",
+    "details": "Multi-site + HA cluster + 1Gbps + dedicated support",
+    "image": "https://via.placeholder.com/300x150/0284C7/FFFFFF?text=VPN+ENT"
+  },
+
+  {
+    "note": "EMAIL DOANH NGHIỆP",
+    "id": 54,
+    "categoryId": 15,
+    "name": "EMAIL 5 USERS",
+    "description": "Email tên miền 5 users, 5GB/user",
+    "price": 250000,
+    "badge": "5 Users",
+    "details": "Domain email + anti-spam + webmail + mobile sync",
+    "image": "https://via.placeholder.com/300x150/BE185D/FFFFFF?text=EMAIL+5"
+  },
+  {
+    "id": 55,
+    "categoryId": 15,
+    "name": "EMAIL 20 USERS",
+    "description": "Email tên miền 20 users, 10GB/user",
+    "price": 890000,
+    "badge": "20 Users",
+    "details": "Domain email + anti-spam/virus + calendar + contacts",
+    "image": "https://via.placeholder.com/300x150/BE185D/FFFFFF?text=EMAIL+20"
+  },
+  {
+    "id": 56,
+    "categoryId": 15,
+    "name": "EMAIL ENTERPRISE",
+    "description": "Email enterprise 100+ users, 50GB/user",
+    "price": 3490000,
+    "badge": "100+ Users",
+    "details": "Unlimited domain + archive + compliance + admin console",
+    "image": "https://via.placeholder.com/300x150/BE185D/FFFFFF?text=EMAIL+ENT"
+  },
+
+  {
+    "note": "WEBSITE & HOSTING",
+    "id": 57,
+    "categoryId": 16,
+    "name": "WEB STARTER",
+    "description": "Gói hosting cơ bản 5GB + 1 website",
+    "price": 390000,
+    "badge": "5GB",
+    "details": "1 domain + SSL free + backup tuần + cPanel",
+    "image": "https://via.placeholder.com/300x150/0D9488/FFFFFF?text=WEB+START"
+  },
+  {
+    "id": 58,
+    "categoryId": 16,
+    "name": "WEB BUSINESS",
+    "description": "Gói hosting doanh nghiệp 20GB + 5 websites",
+    "price": 990000,
+    "badge": "20GB",
+    "details": "5 domains + SSL + backup ngày + email unlimited",
+    "image": "https://via.placeholder.com/300x150/0D9488/FFFFFF?text=WEB+BIZ"
+  },
+  {
+    "id": 59,
+    "categoryId": 16,
+    "name": "WEB DESIGN BASIC",
+    "description": "Thiết kế website chuẩn SEO 5 trang",
+    "price": 4900000,
+    "badge": "5 Pages",
+    "details": "Responsive + SEO basic + hosting 1 năm + maintenance",
+    "image": "https://via.placeholder.com/300x150/0D9488/FFFFFF?text=WEB+DESIGN"
+  },
+  {
+    "id": 60,
+    "categoryId": 16,
+    "name": "WEB ECOMMERCE",
+    "description": "Website thương mại điện tử chuyên nghiệp",
+    "price": 12900000,
+    "badge": "E-commerce",
+    "details": "Full features + payment gateway + CMS + SEO + 1 năm support",
+    "image": "https://via.placeholder.com/300x150/0D9488/FFFFFF?text=ECOMMERCE"
+  },
+
+  {
+    "note": "HỘI NGHỊ TRUYỀN HÌNH",
+    "id": 61,
+    "categoryId": 17,
+    "name": "MEETING 10 USERS",
+    "description": "Video conference 10 users cùng lúc",
+    "price": 290000,
+    "badge": "10 Users",
+    "details": "HD video + screen share + recording + chat",
+    "image": "https://via.placeholder.com/300x150/9333EA/FFFFFF?text=MEET+10"
+  },
+  {
+    "id": 62,
+    "categoryId": 17,
+    "name": "MEETING 50 USERS",
+    "description": "Video conference 50 users chuyên nghiệp",
+    "price": 890000,
+    "badge": "50 Users",
+    "details": "Full HD + whiteboard + breakout rooms + cloud recording",
+    "image": "https://via.placeholder.com/300x150/9333EA/FFFFFF?text=MEET+50"
+  },
+  {
+    "id": 63,
+    "categoryId": 17,
+    "name": "WEBINAR 500",
+    "description": "Webinar/Hội thảo trực tuyến 500 người",
+    "price": 2490000,
+    "badge": "500 Attendees",
+    "details": "Streaming + Q&A + polls + registration + analytics",
+    "image": "https://via.placeholder.com/300x150/9333EA/FFFFFF?text=WEBINAR"
+  },
+
+  {
+    "note": "MARKETING ONLINE",
+    "id": 64,
+    "categoryId": 18,
+    "name": "SEO BASIC",
+    "description": "Gói SEO cơ bản 20 từ khóa",
+    "price": 3900000,
+    "badge": "20 Keywords",
+    "details": "Onpage + backlink + content 4 bài/tháng + report",
+    "image": "https://via.placeholder.com/300x150/DB2777/FFFFFF?text=SEO+BASIC"
+  },
+  {
+    "id": 65,
+    "categoryId": 18,
+    "name": "SEO ADVANCED",
+    "description": "Gói SEO nâng cao 50 từ khóa",
+    "price": 8900000,
+    "badge": "50 Keywords",
+    "details": "Full SEO + content 12 bài/tháng + PR + social signal",
+    "image": "https://via.placeholder.com/300x150/DB2777/FFFFFF?text=SEO+ADV"
+  },
+  {
+    "id": 66,
+    "categoryId": 18,
+    "name": "GOOGLE ADS",
+    "description": "Quản lý quảng cáo Google Ads chuyên nghiệp",
+    "price": 2900000,
+    "badge": "Google Ads",
+    "details": "Setup + optimize + A/B testing + report + consulting",
+    "image": "https://via.placeholder.com/300x150/DB2777/FFFFFF?text=GOOGLE+ADS"
+  },
+  {
+    "id": 67,
+    "categoryId": 18,
+    "name": "SOCIAL MEDIA",
+    "description": "Quản lý fanpage & chạy ads Facebook/Zalo",
+    "price": 4900000,
+    "badge": "Social Media",
+    "details": "Content 20 posts + design + ads optimize + engagement",
+    "image": "https://via.placeholder.com/300x150/DB2777/FFFFFF?text=SOCIAL"
+  },
+
+  {
+    "note": "KHO DỮ LIỆU (DATA CENTER)",
+    "id": 68,
+    "categoryId": 19,
+    "name": "RACK 1/4",
+    "description": "Thuê chỗ đặt máy 1/4 rack tại datacenter Tier 3",
+    "price": 4900000,
+    "badge": "1/4 Rack",
+    "details": "10A power + 1Gbps + cooling + security 24/7",
+    "image": "https://via.placeholder.com/300x150/0891B2/FFFFFF?text=RACK+1-4"
+  },
+  {
+    "id": 69,
+    "categoryId": 19,
+    "name": "RACK 1/2",
+    "description": "Thuê chỗ đặt máy 1/2 rack tại datacenter Tier 3",
+    "price": 8900000,
+    "badge": "1/2 Rack",
+    "details": "20A power + 10Gbps + redundant cooling + physical security",
+    "image": "https://via.placeholder.com/300x150/0891B2/FFFFFF?text=RACK+1-2"
+  },
+  {
+    "id": 70,
+    "categoryId": 19,
+    "name": "FULL RACK",
+    "description": "Thuê nguyên rack tại datacenter Tier 3+",
+    "price": 15900000,
+    "badge": "Full Rack",
+    "details": "40A redundant + 40Gbps + dual cooling + cage + onsite support",
+    "image": "https://via.placeholder.com/300x150/0891B2/FFFFFF?text=FULL+RACK"
+  },
+
+  {
+    "note": "THANH TOÁN ĐIỆN TỬ",
+    "id": 71,
+    "categoryId": 20,
+    "name": "PAYMENT GATEWAY BASIC",
+    "description": "Cổng thanh toán cơ bản ATM + Visa/Master",
+    "price": 990000,
+    "badge": "ATM + Card",
+    "details": "Setup fee + 2.5% transaction + API + dashboard",
+    "image": "https://via.placeholder.com/300x150/DC2626/FFFFFF?text=PAY+BASIC"
+  },
+  {
+    "id": 72,
+    "categoryId": 20,
+    "name": "PAYMENT GATEWAY PRO",
+    "description": "Cổng thanh toán đa kênh full tính năng",
+    "price": 1990000,
+    "badge": "All Channels",
+    "details": "ATM + Card + ví điện tử + QR + installment + 2.2% trans",
+    "image": "https://via.placeholder.com/300x150/DC2626/FFFFFF?text=PAY+PRO"
+  },
+  {
+    "id": 73,
+    "categoryId": 20,
+    "name": "QR CODE PAYMENT",
+    "description": "Giải pháp thanh toán QR cho cửa hàng",
+    "price": 490000,
+    "badge": "QR Payment",
+    "details": "VNPay QR + static/dynamic QR + app + 1.5% trans",
+    "image": "https://via.placeholder.com/300x150/DC2626/FFFFFF?text=QR+PAY"
+  },
+
+  {
+    "note": "BẢO HIỂM SỐ",
+    "id": 74,
+    "categoryId": 21,
+    "name": "BẢO HIỂM TAI NẠN",
+    "description": "Bảo hiểm tai nạn 24/7 qua ứng dụng",
+    "price": 199000,
+    "badge": "200 triệu",
+    "details": "Bồi thường 200 triệu + viện phí + thu nhập",
+    "image": "https://via.placeholder.com/300x150/EA580C/FFFFFF?text=BH+TAINAN"
+  },
+  {
+    "id": 75,
+    "categoryId": 21,
+    "name": "BẢO HIỂM SỨC KHỎE",
+    "description": "Bảo hiểm sức khỏe toàn diện cá nhân",
+    "price": 2990000,
+    "badge": "500 triệu",
+    "details": "Khám chữa bệnh + nằm viện + phẫu thuật",
+    "image": "https://via.placeholder.com/300x150/EA580C/FFFFFF?text=BH+SK"
+  },
+  {
+    "id": 76,
+    "categoryId": 21,
+    "name": "BẢO HIỂM Ô TÔ",
+    "description": "Bảo hiểm vật chất xe ô tô",
+    "price": 4990000,
+    "badge": "Vật chất xe",
+    "details": "Bảo hiểm vật chất + dân sự + phụ kiện + cứu hộ",
+    "image": "https://via.placeholder.com/300x150/EA580C/FFFFFF?text=BH+OTO"
+  },
+
+  {
+    "note": "GIÁO DỤC TRỰC TUYẾN",
+    "id": 77,
+    "categoryId": 22,
+    "name": "E-LEARNING BASIC",
+    "description": "Nền tảng học online 100 học viên",
+    "price": 1990000,
+    "badge": "100 Students",
+    "details": "LMS platform + video storage 50GB + quiz + certificate",
+    "image": "https://via.placeholder.com/300x150/7C3AED/FFFFFF?text=ELEARN+100"
+  },
+  {
+    "id": 78,
+    "categoryId": 22,
+    "name": "E-LEARNING SCHOOL",
+    "description": "Giải pháp học online cho trường học 1000 học sinh",
+    "price": 5900000,
+    "badge": "1000 Students",
+    "details": "Full LMS + live class + exam + parent portal + storage 500GB",
+    "image": "https://via.placeholder.com/300x150/7C3AED/FFFFFF?text=SCHOOL"
+  },
+  {
+    "id": 79,
+    "categoryId": 22,
+    "name": "ONLINE COURSE STARTER",
+    "description": "Tạo khóa học online bán trên nền tảng",
+    "price": 990000,
+    "badge": "Course Platform",
+    "details": "Upload courses + payment + marketing + 10% commission",
+    "image": "https://via.placeholder.com/300x150/7C3AED/FFFFFF?text=COURSE"
+  },
+
+  {
+    "note": "Y TẾ TRỰC TUYẾN",
+    "id": 80,
+    "categoryId": 23,
+    "name": "TƯ VẤN BÁC SĨ ONLINE",
+    "description": "Gói 5 lượt tư vấn bác sĩ qua video call",
+    "price": 299000,
+    "badge": "5 Consults",
+    "details": "Video call + chat + medical record + prescription",
+    "image": "https://via.placeholder.com/300x150/059669/FFFFFF?text=DOCTOR+5"
+  },
+  {
+    "id": 81,
+    "categoryId": 23,
+    "name": "GÓI SỨC KHỎE GIA ĐÌNH",
+    "description": "Chăm sóc sức khỏe toàn diện cho cả gia đình",
+    "price": 1490000,
+    "badge": "Family Care",
+    "details": "Unlimited consult + home visit 2 lần + vaccine remind",
+    "image": "https://via.placeholder.com/300x150/059669/FFFFFF?text=FAMILY"
+  },
+  {
+    "id": 82,
+    "categoryId": 23,
+    "name": "THEO DÕI SỨC KHỎE IoT",
+    "description": "Bộ thiết bị theo dõi sức khỏe thông minh",
+    "price": 2990000,
+    "badge": "IoT Health",
+    "details": "Blood pressure + heart rate + glucose monitor + app",
+    "image": "https://via.placeholder.com/300x150/059669/FFFFFF?text=HEALTH+IOT"
+  },
+
+  {
+    "note": "VNPT PAY",
+    "id": 83,
+    "categoryId": 24,
+    "name": "VÍ VNPT PAY",
+    "description": "Mở ví điện tử VNPT Pay - Nạp tiền miễn phí",
+    "price": 0,
+    "badge": "Free",
+    "details": "Nạp rút miễn phí + thanh toán hóa đơn + chuyển tiền",
+    "image": "https://via.placeholder.com/300x150/0D9488/FFFFFF?text=VNPTPAY"
+  },
+  {
+    "id": 84,
+    "categoryId": 24,
+    "name": "VÍ DOANH NGHIỆP",
+    "description": "Ví điện tử doanh nghiệp quản lý chi tiêu",
+    "price": 990000,
+    "badge": "Business Wallet",
+    "details": "Multi-user + expense management + report + API",
+    "image": "https://via.placeholder.com/300x150/0D9488/FFFFFF?text=BIZ+WALLET"
+  },
+  {
+    "id": 85,
+    "categoryId": 24,
+    "name": "THANH TOÁN HÓA ĐƠN",
+    "description": "Tích hợp thanh toán hóa đơn tự động",
+    "price": 199000,
+    "badge": "Auto Payment",
+    "details": "Điện + nước + Internet + mobile + reminder",
+    "image": "https://via.placeholder.com/300x150/0D9488/FFFFFF?text=AUTO+BILL"
+  },
+
+  {
+    "note": "AI & BIGDATA",
+    "id": 86,
+    "categoryId": 25,
+    "name": "CHATBOT AI BASIC",
+    "description": "Chatbot tự động trả lời khách hàng",
+    "price": 1990000,
+    "badge": "AI Chatbot",
+    "details": "NLP engine + 1000 conversations/tháng + Facebook integration",
+    "image": "https://via.placeholder.com/300x150/C026D3/FFFFFF?text=CHATBOT"
+  },
+  {
+    "id": 87,
+    "categoryId": 25,
+    "name": "BIGDATA ANALYTICS",
+    "description": "Phân tích dữ liệu lớn cho doanh nghiệp",
+    "price": 4900000,
+    "badge": "Analytics",
+    "details": "Data warehouse + BI dashboard + ML insights + consulting",
+    "image": "https://via.placeholder.com/300x150/C026D3/FFFFFF?text=BIGDATA"
+  },
+  {
+    "id": 88,
+    "categoryId": 25,
+    "name": "AI CUSTOMER INSIGHT",
+    "description": "Phân tích hành vi khách hàng bằng AI",
+    "price": 6900000,
+    "badge": "AI Insight",
+    "details": "Customer segmentation + prediction + recommendation + report",
+    "image": "https://via.placeholder.com/300x150/C026D3/FFFFFF?text=AI+INSIGHT"
+  },
+  {
+    "id": 89,
+    "categoryId": 25,
+    "name": "OCR & DOCUMENT AI",
+    "description": "Nhận dạng và xử lý văn bản tự động",
+    "price": 2490000,
+    "badge": "OCR/AI",
+    "details": "OCR Vietnamese + document classification + data extraction",
+    "image": "https://via.placeholder.com/300x150/C026D3/FFFFFF?text=OCR+AI"
+  }
+]

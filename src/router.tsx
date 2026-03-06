@@ -3,6 +3,7 @@ import CartPage from "@/pages/cart";
 import ProductListPage from "@/pages/catalog/product-list";
 import CategoryListPage from "@/pages/catalog/category-list";
 import ProductDetailPage from "@/pages/catalog/product-detail";
+import ServiceDetailPage from "@/pages/service/service-detail";
 import HomePage from "@/pages/home";
 import ProfilePage from "@/pages/profile";
 import SearchPage from "@/pages/search";
@@ -19,7 +20,7 @@ const router = createBrowserRouter(
           path: "/",
           element: <HomePage />,
           handle: {
-            logo: true,
+            vnptHeader: true,
           },
         },
         {
@@ -64,6 +65,14 @@ const router = createBrowserRouter(
           element: <ProductDetailPage />,
           handle: {
             scrollRestoration: 0, // when user selects another product in related products, scroll to the top of the page
+          },
+        },
+        {
+          path: "/service/:id",
+          element: <ServiceDetailPage />,
+          handle: {
+            title: "Chi tiết dịch vụ",
+            scrollRestoration: 0,
           },
         },
         {

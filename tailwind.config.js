@@ -17,6 +17,9 @@ module.exports = {
         subtitle: "var(--subtitle)",
         danger: "var(--danger)",
         skeleton: "var(--skeleton)",
+        "vnpt-blue": "var(--vnpt-blue)",
+        "vnpt-header": "var(--vnpt-header)",
+        "card-border": "var(--card-border)",
       },
       fontSize: {
         "3xs": ["11px", "16px"],

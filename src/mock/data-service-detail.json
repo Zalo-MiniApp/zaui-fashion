@@ -1,0 +1,84 @@
+[
+  {
+    "serviceId": 1,
+    "benefits": [
+      "8GB data tốc độ cao mỗi ngày",
+      "2000 phút gọi di động nội mạng VinaPhone",
+      "250 phút gọi di động ngoại mạng"
+    ],
+    "registrationConditions": [
+        "Thuê bao Vinaphone trả trước kích hoạt mới trong vòng 30 ngày kể từ ngày kích hoạt thành công.",
+        "Áp dụng cho thuê bao Vinaphone trả trước theo danh sách."
+        
+    ],
+    "renewalInfo": [
+        "Gói cước tự động gia hạn."
+    ],
+    "usageRules": [
+        "Thời gian cam kết không chuyển mạng là 18 tháng (540 ngày) tính từ ngày thuê bao đăng ký gói cước thành công"
+    ],
+    "checkBalanceInfo": [
+        "Cú pháp tra cứu: TRACUU D199G gửi 900"
+    ],
+    "cancellationInfo": [
+        "Cú pháp hủy: HUY D199G gửi 900"
+    ],
+    "supportHotline": [
+        "Để được hỗ trợ về dịch vụ di động. Quý khách vui lòng liên hệ tổng đài 18001166 (miễn phí)"
+    ]
+  },
+  {
+    "serviceId": 2,
+    "benefits": [
+      "2000 phút gọi di động nội mạng VinaPhone",
+      "250 phút gọi ngoại mạng (di động/cố định ngoại mạng + cố định/Gphone VNPT).",
+      "1.5GB data tốc độ cao mỗi ngày"
+    ],
+    "registrationConditions": [
+        "Thuê bao trả trước hòa mạng mới: đăng ký gói trong vòng 30 ngày kể từ ngày hòa mạng.",
+        "Thuê bao hiện hữu: theo điều kiện tiêu dùng được đăng ký gói."
+    ],
+    "renewalInfo": [
+        "Gói cước tự động gia hạn."
+    ],
+    "usageRules": [
+        "Thời gian cam kết không chuyển mạng là 18 tháng (540 ngày) tính từ ngày thuê bao đăng ký gói cước thành công"
+    ],
+    "checkBalanceInfo": [
+        "Cú pháp tra cứu: TRACUU V149N gửi 900"
+    ],
+    "cancellationInfo": [
+        "Cú pháp hủy: HUY V149N gửi 900"
+    ],
+    "supportHotline": [
+        "Để được hỗ trợ về dịch vụ di động. Quý khách vui lòng liên hệ tổng đài 18001166 (miễn phí)"
+    ]
+  },
+  {
+    "serviceId": 3,
+    "benefits": [
+      "3000 phút gọi di động nội mạng VinaPhone",
+      "450 phút gọi ngoại mạng (di động/cố định ngoại mạng + cố định/Gphone VNPT).",
+      "2GB data tốc độ cao mỗi ngày"
+    ],
+    "registrationConditions": [
+        "Thuê bao Vinaphone trả trước kích hoạt mới trong vòng 30 ngày kể từ ngày kích hoạt thành công.",
+        "Áp dụng cho thuê bao Vinaphone trả trước theo danh sách."
+    ],
+    "renewalInfo": [
+        "Gói cước tự động gia hạn."
+    ],
+    "usageRules": [
+        "540 ngày tính từ ngày thuê bao đăng ký gói cước thành công."
+    ],
+    "checkBalanceInfo": [
+        "Cú pháp tra cứu: TRACUU V249N gửi 900"
+    ],
+    "cancellationInfo": [
+        "Cú pháp hủy: HUY V249N gửi 900"
+    ],
+    "supportHotline": [
+        "Để được hỗ trợ về dịch vụ di động. Quý khách vui lòng liên hệ tổng đài 18001166 (miễn phí)"
+    ]
+  }
+]

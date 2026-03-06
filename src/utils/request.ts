@@ -15,6 +15,13 @@ export async function request<T>(
     ? `${API_URL}${path}`
     : mockUrls[`../mock${path}.json`]?.default;
 
+  console.log('🔍 Request debug:', {
+    path,
+    fullPath: `../mock${path}.json`,
+    url,
+    mockUrls: Object.keys(mockUrls)
+  });
+
   if (!API_URL) {
     await new Promise((resolve) => setTimeout(resolve, 500));
   }

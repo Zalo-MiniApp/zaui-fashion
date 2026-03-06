@@ -1,25 +1,34 @@
-import { useNavigate } from "react-router-dom";
-import Banners from "./banners";
-import SearchBar from "../../components/search-bar";
-import Category from "./category";
-import FlashSales from "./flash-sales";
-import HorizontalDivider from "@/components/horizontal-divider";
-import CategoryTabs from "@/components/category-tabs";
+import { useAtomValue } from "jotai";
+import ServiceSection from "@/components/service-section";
+import ServiceCard from "@/components/service-card";
+import { servicesState, serviceCategoriesState } from "@/state";
 
 const HomePage: React.FunctionComponent = () => {
-  const navigate = useNavigate();
+  const services = useAtomValue(servicesState);
+  const categories = useAtomValue(serviceCategoriesState);
+
   return (
-    <div className="min-h-full bg-section">
-      <div className="bg-background pt-2">
-        <SearchBar onClick={() => navigate("/search")} />
-        <Banners />
-      </div>
-      <div className="bg-background space-y-2 mt-2">
-        <CategoryTabs />
-        <Category />
-      </div>
-      <HorizontalDivider />
-      <FlashSales />
+    <div className="min-h-full bg-[#0093DD]">
+      {/* Service Sections */}
+      {categories.map((category) => {
+        const categoryServices = services.filter(
+          (service) => service.categoryId === category.id
+        );
+        
+        if (categoryServices.length === 0) return null;
+
+        return (
+          <ServiceSection key={category.id} title={category.name}>
+            {categoryServices.map((service) => (
+              <ServiceCard
+                key={service.id}
+                service={service}
+                onAdd={() => console.log("Add service:", service.name)}
+              />
+            ))}
+          </ServiceSection>
+        );
+      })}
     </div>
   );
 };
