@@ -19,7 +19,7 @@ A template for online sales applications. It provides full features such as prod
 
 ### Using Zalo Mini App Extension
 
-1. Install [Visual Studio Code](https://code.visualstudio.com/download) and [Zalo Mini App Extension](https://mini.zalo.me/docs/dev-tools).
+1. Install [Visual Studio Code](https://code.visualstudio.com/download) and [Zalo Mini App Extension](https://miniapp.zaloplatforms.com/documents/devtools).
 1. Click on **Create Project** > Choose **ZaUI Fashion** template > Wait until the generated project is ready.
 1. **Configure App ID** and **Install Dependencies**, then navigate to the **Run** panel > **Start** to develop your Mini App 🚀
 
@@ -28,7 +28,7 @@ A template for online sales applications. It provides full features such as prod
 > **Note:** Vite 5 compatibility in CLI is under development. Until then, please use the Zalo Mini App Extension.
 
 1. [Install Node JS](https://nodejs.org/en/download/).
-1. [Install Zalo Mini App CLI](https://mini.zalo.me/docs/dev-tools/cli/intro/).
+1. [Install Zalo Mini App CLI](https://miniapp.zaloplatforms.com/documents/devtools/cli/intro/).
 1. **Download** or **clone** this repository.
 1. **Install dependencies**:
    ```bash
@@ -46,7 +46,7 @@ This template is built using **Vite 5.x**, which is **not compatible** with Zalo
 
 ## Deployment
 
-1. **Create** a Zalo Mini App ID. For instructions, please refer to the [Coffee Shop Tutorial](https://mini.zalo.me/tutorial/coffee-shop/step-1/).
+1. **Create** a Zalo Mini App ID. For instructions, please refer to the [Coffee Shop Tutorial](https://miniapp.zaloplatforms.com/documents/tutorial/coffee-shop).
 
 1. **Deploy** your mini program to Zalo using the ID created.
 
@@ -82,7 +82,7 @@ Folder structure:
   - **`state.ts`**: Global state management. Jotai is used for simplicity and performance.
   - **`types.d.ts`**: TypeScript declarations for business related objects.
 
-- **`app-config.json`**: [Zalo Mini App Configuration](https://mini.zalo.me/documents/intro/getting-started/app-config/).
+- **`app-config.json`**: [Zalo Mini App Configuration](https://miniapp.zaloplatforms.com/documents/intro/getting-started/app-config/).
 
 The other files (such as `tailwind.config.js`, `vite.config.mts`, `tsconfig.json`, `postcss.config.js`, `.eslintrc.js`, and `.prettierrc`) are configurations for libraries used in your application. Visit the library's documentation to learn how to use them.
 
@@ -103,7 +103,7 @@ The other files (such as `tailwind.config.js`, `vite.config.mts`, `tsconfig.json
 
 > Refer to the `src/mock/*.json` files for sample data and structure.
 
-> You may wish to add more APIs to support your business needs. For authorization required APIs, the user's identity can be retrieved from the `Authorization: Bearer ${ACCESS_TOKEN}` header sent along with each API request. Visit the [Login with Zalo](https://mini.zalo.me/intro/authen-user/) documentation for more detailed instructions.
+> You may wish to add more APIs to support your business needs. For authorization required APIs, the user's identity can be retrieved from the `Authorization: Bearer ${ACCESS_TOKEN}` header sent along with each API request. Visit the [Login with Zalo](https://miniapp.zaloplatforms.com/documents/intro/authen-user/) documentation for more detailed instructions.
 
 ### Link Official Account
 
